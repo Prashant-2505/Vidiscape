@@ -1,0 +1,76 @@
+.carouselSection {
+    position: relative;
+    margin-bottom: 70px;
+
+    &>.contentWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .carouselTitle {
+        font-size: 24px;
+        color: white;
+        font-weight: normal;
+    }
+}
+
+.Auth {
+    padding-top: 10rem;
+    height: 100vh;
+    color: white;
+
+    .Form {
+        border: 1px solid;
+        padding: 5px;
+        border-radius: 5px;
+
+        .FormItems {
+            width: 100%;
+
+        }
+
+        .FormItems TabPanel {
+            width: 100%;
+
+        }
+
+    }
+
+}
+
+.Form :hover
+{
+    background:#84817a;
+    transition: 0.2s ease-in-out;
+}
+
+.form-input {
+    width: 100%;
+    height: 2rem;
+    margin-top: 4px;
+    outline: none;
+}
+.form-input:hover
+{
+    background: white;
+}
+
+
+.tab {
+    height: 2.5rem;
+    margin: 0.5rem;
+    background: #2C3A47;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.tab:hover {
+    background: white;
+    color: black;
+    transition: 0.2s ease-in-out;
+}

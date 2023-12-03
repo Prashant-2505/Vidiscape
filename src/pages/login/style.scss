@@ -1,0 +1,18 @@
+.AuthBtn
+{
+    width: 50%;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.AuthBtn:hover
+{
+    background: rgb(201, 189, 189);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
